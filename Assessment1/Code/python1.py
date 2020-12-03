@@ -68,12 +68,6 @@ def one(input1, input2):
 	# Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
 def two(input):
-	 
-
-	 if 
-
-
-
 	return ""
 
 
@@ -260,11 +254,16 @@ def eight(input):
 
 def nine(inputString, char):
 
-	for let in inputString:
-		if let == char[let]
-			return char[let]
-		else:
-			return -1 
+	no_space = inputString.strip()
+
+	result = no_space.index(char)
+
+	return result
+
+
+
+	
+
 
 
 	# <QUESTION 10>
