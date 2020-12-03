@@ -68,7 +68,8 @@ def one(input1, input2):
 	# Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
 def two(input):
-	return ""
+        return ""
+
 
 
 	# <QUESTION 3>
@@ -253,18 +254,7 @@ def eight(input):
 	# Take a look at the documentation for Strings, List and range.
 
 def nine(inputString, char):
-
-	no_space = inputString.strip()
-
-	result = no_space.index(char)
-
-	return result
-
-
-
-	
-
-
+	return True
 
 	# <QUESTION 10>
 
