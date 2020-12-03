@@ -254,7 +254,13 @@ def eight(input):
 	# Take a look at the documentation for Strings, List and range.
 
 def nine(inputString, char):
-	return True
+
+	els = inputString.replace(" ","")
+
+	if char in els:
+		return els.index(char)+1
+	else:	
+		return -1
 
 	# <QUESTION 10>
 
